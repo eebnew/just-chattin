@@ -24,13 +24,13 @@ const LoginScreen = ({ navigation }) => {
   return (
     <KeyboardAvoidingView style={styles.container} behavior={Platform.OS === "ios" ? "padding" : ""}>
       <StatusBar style="light" />
-      <Image
+      {/* <Image
         source={{
           uri:
             "https://blog.mozilla.org/internetcitizen/files/2018/08/signal-logo.png",
         }}
         style={{ width: 200, height: 200 }}
-      />
+      /> */}
       <View style={styles.inputContainer}>
         <Input
           placeholder="Email"
